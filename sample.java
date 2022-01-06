@@ -6,7 +6,8 @@ class sample
         String  s = sc.nextLine();
         int i = Integer.parseInt(s);
         System.out.println(i+5);
-
+        Map<Integer,Integer> mp = new HashMap<>();
+         mp.put(10, 12);
          
     }
 }
